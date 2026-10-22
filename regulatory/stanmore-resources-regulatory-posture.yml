@@ -1,0 +1,83 @@
+generated: '2026-10-22'
+method: searched
+source: https://stanmore.au/download/privacy-policy/
+document:
+  title: Privacy Policy (SMR-LGL-POL-000003, Version 3, Date Published 12/01/2023)
+  landing_page: https://stanmore.au/download/privacy-policy/
+  pdf: https://stanmore.au/download/privacy-policy-2/?wpdmdl=1413
+  note: >-
+    The landing page is a WordPress Download Manager stub (536 chars of text). The policy itself is a 6-page PDF
+    reached through its download link (HTTP 200, application/pdf, 133145 bytes). Every quote below is from that PDF.
+    The dossier found no other legal or trust pages on stanmore.au.
+signals:
+  data_subject_request:
+    url: https://stanmore.au/download/privacy-policy/
+    section: '8. YOUR RIGHTS / 10. EU GDPR'
+    channel: 'Privacy Officer, Stanmore Resources Limited, GPO Box 2602, Brisbane QLD 4001; +61 7 3238 1000; info@stanmore.net.au'
+    rights_named: [access, correction, opt-out of communications, deletion (EU), objection and restriction (EU), withdrawal of consent (EU), portability (EU), no solely-automated decisions (EU)]
+    escalation: Office of the Australian Information Commissioner
+    evidence:
+    - source: https://stanmore.au/download/privacy-policy-2/?wpdmdl=1413
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        "If you would like to request any of these matters, please contact our Privacy Officer at the contact details
+        below."
+    - source: https://stanmore.au/download/privacy-policy-2/?wpdmdl=1413
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        "We have processes in place to deal with Data Subject Rights. Our actions and responsibilities will depend on
+        whether we are the controller or processer of the personal data at issue."
+    - source: https://stanmore.au/download/privacy-policy-2/?wpdmdl=1413
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        "If you consider that Stanmore has failed to resolve the complaint satisfactorily, you can complain to the
+        Office of the Australian Information Commissioner."
+    note: >-
+      Section 8.1 grants access, correction and opting out of communications to everyone. Section 10 lists the
+      fuller GDPR rights, deletion and portability included, for EU data subjects only. Requests go to the Privacy Officer.
+      No response time is stated.
+  data_retention:
+    url: https://stanmore.au/download/privacy-policy/
+    section: '7. HOW DO WE RETAIN PERSONAL INFORMATION?'
+    evidence:
+    - source: https://stanmore.au/download/privacy-policy-2/?wpdmdl=1413
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        "Stanmore’s aim is to keep your Personal Information for no longer than is necessary for compliance or other
+        legitimate business purposes."
+    note: >-
+      This is a principle-based retention statement tied to "ongoing legitimate business need". It gives no fixed
+      periods and no retention schedule.
+  data_residency:
+    url: https://stanmore.au/download/privacy-policy/
+    section: '5.2 Overseas disclosure'
+    evidence:
+    - source: https://stanmore.au/download/privacy-policy-2/?wpdmdl=1413
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        "Stanmore may disclose your Personal Information to recipients located outside of Australia in the course of
+        us conducting our business. The countries may include the United States of America, Canada, Japan, South
+        Korea, Indonesia, China, Singapore, India, Taiwan and regions, South America, and the European Union."
+    note: >-
+      This is the opposite of a residency commitment. The policy says personal information may go to recipients in
+      many countries outside Australia and names them. It makes no in-country storage commitment.
+  subprocessors:
+    url: https://stanmore.au/download/privacy-policy/
+    section: '5.1 General'
+    list_published: false
+    evidence:
+    - source: https://stanmore.au/download/privacy-policy-2/?wpdmdl=1413
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        "to third party business service providers including (but not limited to): Professional advisers such as
+        auditors, legal advisers, accountants; IT service providers; Providers of Stanmore’s share registry services;
+        Recruitment providers; Outsourced services when required, such as payroll;"
+    note: >-
+      The policy names categories of third-party service providers only. It publishes no list of named
+      subprocessors. The quote joins the bullet items of one list with semicolons, as they appear in the PDF.

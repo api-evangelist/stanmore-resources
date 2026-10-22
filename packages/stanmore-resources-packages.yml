@@ -1,0 +1,18 @@
+name: Stanmore Resources packages
+generated: '2026-10-22'
+method: none
+note: Stanmore Resources is a metallurgical coal miner with no developer portal, API docs or SDK pages. No first-party packages found; registry lookups for "stanmore" and "stanmore-resources" returned 404, and no GitHub org exists under those names.
+checked:
+- url: https://registry.npmjs.org/stanmore
+  status: 404
+- url: https://registry.npmjs.org/stanmore-resources
+  status: 404
+- url: https://pypi.org/pypi/stanmore/json
+  status: 404
+- url: https://pypi.org/pypi/stanmore-resources/json
+  status: 404
+- url: https://api.github.com/orgs/stanmore-resources
+  status: 404
+- url: https://api.github.com/orgs/stanmoreresources
+  status: 404
+packages: []

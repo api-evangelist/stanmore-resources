@@ -1,23 +1,91 @@
 aid: stanmore-resources
+
 name: Stanmore Resources
-description: 'Stanmore Resources is a company surfaced via the API Evangelist harvest backlog (source:
-  australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Stanmore Resources Limited (ASX: SMR) is an Australian mining company with operations and
+  exploration projects in Queensland''s Bowen Basin, and one of Australia''s largest suppliers of metallurgical
+  coal to global markets, primarily for steel making. Its three producing assets are South Walker Creek,
+  Poitrel and the Isaac Plains Complex, with a combined capacity of roughly 14 million tonnes a year,
+  plus development projects at Eagle Downs, Lancewood and the Isaac Downs Extension. The company publishes
+  no public API or developer portal on its website.'
+
 url: https://raw.githubusercontent.com/api-evangelist/stanmore-resources/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Mining
+- Metallurgical Coal
+- Australia
+- Natural Resources
+- ASX Listed
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://stanmore.au/wp-content/uploads/2025/08/Stanmore_Logo_Reversed.png
+
 common:
+- type: Hosts
+  url: hosts/stanmore-resources-hosts.yml
+- type: DomainSecurity
+  url: security/stanmore-resources-domain-security.yml
 - type: Website
-  url: https://stanmore.net.au/
+  url: https://stanmore.au/
+- type: Support
+  url: https://stanmore.au/contact-us/
+- type: PrivacyPolicy
+  url: https://stanmore.au/download/privacy-policy/
+- type: Careers
+  url: https://careers.stanmore.au/
+- type: Investors
+  url: https://stanmore.au/investors/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/stanmore-resources-limited/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: stanmore.net.au 301-redirects to stanmore.au (same company, Stanmore Resources, ASX:SMR); site
+    is a corporate WordPress site with no developer portal, API docs, pricing, terms of service or blog
+    linked from its pages.
+  evidence:
+  - url: https://stanmore.net.au/
+    status: 200
+  - url: https://stanmore.au/
+    status: 200
+  - url: https://stanmore.au/about-us/
+    status: 200
+  - url: https://stanmore.au/contact-us/
+    status: 200
+  - url: https://stanmore.au/download/privacy-policy/
+    status: 200
+  - url: https://careers.stanmore.au/
+    status: 200
+  - url: https://stanmore.au/investors/
+    status: 200
+  - url: https://www.linkedin.com/company/stanmore-resources-limited/
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

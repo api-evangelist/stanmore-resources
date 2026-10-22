@@ -1,0 +1,19 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/stanmore-resources/integrations
+- https://n8n.io/integrations/stanmore-resources/
+- https://composio.dev/toolkits/stanmore-resources
+- https://monid.ai/tools/stanmore-resources
+checked:
+- https://zapier.com/apps/stanmore-resources/integrations
+- https://n8n.io/integrations/stanmore-resources/
+- https://stanmore.au/
+- https://composio.dev/toolkits/stanmore-resources
+- https://monid.ai/tools/stanmore-resources
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: Corporate mining site with no API, integrations, partners-app or marketplace page; no marketplace listings
+  found.

@@ -1,0 +1,22 @@
+type: MCPServer
+name: Stanmore Resources MCP server
+generated: '2026-10-22'
+method: none
+status: none
+note: >-
+  Checked, nothing there. Stanmore Resources (ASX:SMR) is a metallurgical coal miner and publishes no
+  public API, OpenAPI contract, developer portal or MCP server. Pre-flight contract discovery on
+  api.stanmore.au, stanmore.au and careers.stanmore.au found no OpenAPI, AsyncAPI, GraphQL or MCP
+  surface; stanmore.au/llms.txt returned HTTP 404; a web search for a Stanmore Resources MCP server or
+  developer API returned no result naming the company. No candidate tool list is derived because there
+  are no OpenAPI operations to derive one from.
+evidence:
+- url: https://stanmore.au/llms.txt
+  status: 404
+- url: https://stanmore.au/
+  status: 200
+tools: []
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
